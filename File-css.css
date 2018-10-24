@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700&subset=cyrillic');
+
+* {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #eeeeee;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    min-height: 100vh;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.h2, h2 {
+    margin: 0 0 30px;
+}
+
+.menu {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px #999999 solid;
+    border-bottom: 1px #999999 solid;
+    margin-bottom: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 700;
+    margin: 5px 10px;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    background: #eeeeee;
+    border-top: 2px #999999 solid;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.home_photo {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.home {
+    padding: 20px;
+}
+
+.goods_item {
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: 1px #eee solid;
+    clear: both;
+    overflow: hidden;
+}
+
+.goods_info {
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.goods_info h3 {
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+.goods_description {
+    font-size: 14px;
+    margin: 0 0 20px;
+    color: #666666;
+}
+
+.goods_photo {
+    float: left;
+    width: 200px;
+}
+
+.grid .goods_photo {
+    float: none;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.goods_price span {
+    color: red;
+    font-size: 21px;
+}
+
+.goods_view {
+    float: right;
+    margin-top: 20px;
+}
+.logo{
+    width: 100%;
+}
+
